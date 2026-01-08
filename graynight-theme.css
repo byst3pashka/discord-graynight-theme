@@ -1308,7 +1308,7 @@ body {
         --textbox-markdown-syntax: var(--text-4);
         --thread-channel-spine: blue;
         --user-profile-activity-toolbar-background: magenta;
-        --user-profile-background-hover: rgb(0, 255, 13);
+        --user-profile-background-hover: var(--bg-1);
         --user-profile-border: var(--border);
         --user-profile-note-background-focus: lime;
         --user-profile-overlay-background: var(--bg-4);
