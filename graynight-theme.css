@@ -1953,6 +1953,27 @@ body {
     ._1ac1c54c56e5807c-searchFloating {
         right: calc(var(--top-bar-right-margin) + var(--space-sm));
     }
+    /* Place Orbs left of mail button on Quests header (match Shop placement) */
+    ._1a9cebfbd0c9d0f6-headerBar {
+        position: relative;
+        overflow: visible !important;
+    }
+    ._1a9cebfbd0c9d0f6-headerBar #balance-widget-pill {
+        position: absolute !important;
+        /* move closer to mail/window controls — negative offset brings it toward the right edge */
+        right: calc(var(--top-bar-right-margin) - 36px);
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10000 !important;
+        display: flex;
+        align-items: center;
+        pointer-events: auto;
+        background: transparent;
+    }
+    ._1a9cebfbd0c9d0f6-headerBar #balance-widget-pill ._98f64ec6d51f9c4a-balanceCounterText {
+        position: relative;
+        z-index: 10001 !important;
+    }
     ._8067953d83f4b8a8-balanceWidgetMenu {
         margin-right: var(--top-bar-right-margin);
     }
