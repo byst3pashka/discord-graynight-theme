@@ -1,5 +1,5 @@
 /**
- * @name Gray night
+ * @name Gray night T
  * @author by.st3pashka
  * @description midnight but graynight -.-
 */
@@ -910,17 +910,17 @@ body {
         --chat-background-default: var(--bg-3);
         --chat-border: lime;
         --chat-text-muted: var(--text-5);
-        --checkbox-background-active: blue;
+        --checkbox-background-active: var(--bg-2);
         --checkbox-background-default: var(--bg-2);
-        --checkbox-background-hover: red;
+        --checkbox-background-hover: var(--bg-2);
         --checkbox-background-selected-default: var(--accent-2);
-        --checkbox-background-selected-hover: lime;
+        --checkbox-background-selected-hover: var(--bg-1);
         --checkbox-border-active: blue;
         --checkbox-border-default: var(--border);
-        --checkbox-border-hover: red;
-        --checkbox-border-selected-default: yellow;
-        --checkbox-border-selected-hover: lime;
-        --checkbox-icon-active: blue;
+        --checkbox-border-hover: var(--bg-1);
+        --checkbox-border-selected-default: var(--bg-1);
+        --checkbox-border-selected-hover: var(--bg-1);
+        --checkbox-icon-active: var(--text-0);
         --chip-blurple-dark-background: magenta;
         --chip-blurple-dark-text: red;
         --chip-blurple-light-background: yellow;
@@ -1123,7 +1123,7 @@ body {
         --icon-feedback-positive: var(--green-1);
         --icon-feedback-warning: var(--yellow-1);
         --icon-invert: magenta;
-        --icon-link: red;
+        --icon-link: var(--text-1);
         --icon-muted: var(--text-5);
         --icon-status-dnd: var(--dnd);
         --icon-status-idle: var(--idle);
@@ -1186,7 +1186,7 @@ body {
         --polls-normal-image-background: blue;
         --polls-victor-fill: color-mix(in hsl, var(--green-2), transparent 90%);
         --polls-voted-fill: color-mix(in hsl, var(--accent-2), transparent 90%);
-        /* --premium-nitro-pink-text: magenta; */
+        --premium-nitro-pink-text: var(--text-1);
         --profile-gradient-note-background: red;
         --profile-gradient-overlay: yellow;
         --profile-gradient-overlay-synced-with-user-theme: lime;
@@ -1194,19 +1194,19 @@ body {
         --profile-gradient-role-pill-border: magenta;
         --profile-gradient-section-box: red;
         --radio-background-active: yellow;
-        --radio-background-default: lime;
+        --radio-background-default: var(--bg-2);
         --radio-background-hover: blue;
-        --radio-background-selected-default: magenta;
+        --radio-background-selected-default: var(--text-1);
         --radio-background-selected-hover: red;
         --radio-border-active: yellow;
-        --radio-border-default: lime;
+        --radio-border-default: var(--bg-1);
         --radio-border-hover: blue;
-        --radio-border-selected-default: magenta;
+        --radio-border-selected-default: var(--text-1);
         --radio-border-selected-hover: red;
         --radio-foreground-active: yellow;
         --radio-foreground-default: lime;
         --radio-foreground-hover: blue;
-        --radio-thumb-background-active: magenta;
+        --radio-thumb-background-active: var(--text-1);
         --redesign-button-active-background: red;
         --redesign-button-active-pressed-background: yellow;
         --redesign-button-active-text: lime;
