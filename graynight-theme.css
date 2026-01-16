@@ -1,5 +1,5 @@
-/**
- * @name Gray night
+ï»¿/*
+ * @name Gray night T
  * @author by.st3pashka
  * @description midnight but graynight -.-
 */
@@ -1953,6 +1953,7 @@ body {
     ._1ac1c54c56e5807c-searchFloating {
         right: calc(var(--top-bar-right-margin) + var(--space-sm));
     }
+    
     /* Place Orbs left of mail button on Quests header (match Shop placement) */
     ._1a9cebfbd0c9d0f6-headerBar {
         position: relative;
@@ -1960,7 +1961,6 @@ body {
     }
     ._1a9cebfbd0c9d0f6-headerBar #balance-widget-pill {
         position: absolute !important;
-        /* move closer to mail/window controls — negative offset brings it toward the right edge */
         right: calc(var(--top-bar-right-margin) - 36px);
         top: 50%;
         transform: translateY(-50%);
